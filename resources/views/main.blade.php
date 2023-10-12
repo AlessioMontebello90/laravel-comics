@@ -1,13 +1,8 @@
 <main>
     <div class="contents">
-        {{-- <app-comics
-          v-for="comic in arrComics"
-          :key="comic.series"
-          :urlImg="comic.thumb"
-          :price="comic.price"
-          :series="comic.series"
-        /> --}}
-
+        @foreach ($arrComics as $card)
+            @include('partials.cards')
+        @endforeach
     </div>
     <button>LOAD MORE</button>
 </main>

@@ -56,16 +56,7 @@ Route::get('/', function () {
                 'title' => 'shop',
                 'link' => '#'
             ], 
-            // 'character',
-            // 'comics',
-            // 'movies',
-            // 'tv',
-            // 'games',
-            // 'collectibles',
-            // 'videos',
-            // 'fans',
-            // 'news',
-            // 'shop',
+           
         ],
         'comics' => [
             [

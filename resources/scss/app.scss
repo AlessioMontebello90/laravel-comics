@@ -117,3 +117,106 @@ main {
         margin-bottom: 1rem;
     }
 }
+
+footer {
+    .footer-up {
+        background-color: rgb(2, 130, 249);
+
+        .options {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 8rem;
+            max-width: 1200px;
+            margin: auto;
+
+            .option {
+                display: flex;
+                align-items: center;
+                padding-inline: 1.5rem;
+            }
+
+            img {
+                width: 2.2rem;
+            }
+
+            p {
+                color: white;
+                padding-inline: 0.7rem;
+                white-space: nowrap;
+                font-size: 0.7rem;
+            }
+        }
+    }
+
+    .footer-mid {
+        background-image: url("../../public/images/footer-bg.jpg");
+        overflow: hidden;
+
+        .contacts {
+            height: 16rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .links {
+            display: flex;
+            gap: 1.5rem;
+
+            .column {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .title {
+                font-weight: 700;
+                color: white;
+                margin-bottom: 0.5rem;
+                margin-top: 0.5rem;
+            }
+
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: gray;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+
+    .footer-bot {
+        background-color: rgb(48, 48, 48);
+
+        .socials {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: auto;
+            height: 5rem;
+
+            button {
+                background-color: transparent;
+                color: white;
+                border: 2px solid rgb(12, 119, 234);
+                padding: 0.7rem;
+            }
+
+            .social {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            h3 {
+                color: rgb(12, 119, 234);
+            }
+        }
+    }
+}

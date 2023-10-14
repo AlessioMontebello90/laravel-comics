@@ -18,6 +18,8 @@
     @include('header')
 
     @include('main')
+
+    @include('footer')
 </body>
 
 </html>
